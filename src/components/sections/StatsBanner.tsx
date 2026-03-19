@@ -3,7 +3,7 @@ export default function StatsBanner() {
         { label: "Operation Bases", value: "17+", subtext: "Nationwide Coverage" },
         { label: "Patients Assisted", value: "300+", subtext: "Last Month" },
         { label: "Average Response", value: "~20 Min", subtext: "Rapid Service" },
-        { label: "Toll-Free Access", value: "591", subtext: "Any Network" },
+        { label: "Toll-Free Access", value: "08080630", subtext: "Any Network" },
         { label: "Official Partners", value: "ICZ & TSCZ", subtext: "Trusted" },
     ];
 

@@ -19,11 +19,11 @@ export default function CtaBand() {
 
                 <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto flex-shrink-0">
                     <a
-                        href="tel:591"
-                        className="flex items-center justify-center gap-2 bg-white text-red-600 hover:bg-slate-100 px-8 py-4 rounded-lg font-bold text-lg transition-transform hover:-translate-y-1 shadow-xl uppercase tracking-wide"
+                        href="tel:08080630"
+                        className="bg-white text-rose-600 hover:bg-slate-50 border-0 shadow-lg group px-6 py-3 rounded font-medium transition-all text-sm leading-none flex items-center justify-center gap-2"
                     >
-                        <Phone size={20} className="fill-current" />
-                        Call 591 Now
+                        <Phone size={14} className="group-hover:animate-pulse" />
+                        Call 08080630 Now
                     </a>
                     <a
                         href="#footer"

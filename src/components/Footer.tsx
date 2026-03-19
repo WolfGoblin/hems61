@@ -1,4 +1,4 @@
-import { HeartPulse, Phone, Mail, MapPin, Facebook, Twitter, Instagram } from "lucide-react";
+import { HeartPulse, Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -15,13 +15,10 @@ export default function Footer() {
                         Providing rapid, advanced emergency medical response on major highways in Zimbabwe. Dedicated to saving lives with a world-class fleet and certified trauma specialists.
                     </p>
                     <div className="flex space-x-4">
-                        <a href="#" aria-label="Facebook" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors duration-300">
+                        <a href="https://www.facebook.com/hems.zw" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors duration-300">
                             <Facebook size={18} />
                         </a>
-                        <a href="#" aria-label="Twitter" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors duration-300">
-                            <Twitter size={18} />
-                        </a>
-                        <a href="#" aria-label="Instagram" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors duration-300">
+                        <a href="https://www.instagram.com/hems_zw/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors duration-300">
                             <Instagram size={18} />
                         </a>
                     </div>
@@ -31,11 +28,15 @@ export default function Footer() {
                 <div>
                     <h3 className="text-white font-bold text-lg mb-6 uppercase tracking-wider relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-12 after:h-1 after:bg-red-600">Quick Links</h3>
                     <ul className="space-y-3">
-                        {['About Us', 'Services', 'Gallery', 'Contact'].map((link) => (
-                            <li key={link}>
-                                <a href={`#${link.toLowerCase().replace(' ', '-')}`} className="text-slate-400 hover:text-red-500 hover:translate-x-1 inline-block transition-transform duration-300 text-sm font-medium">
-                                    {link}
-                                </a>
+                        {[
+                            { name: 'About Us', href: '/about' },
+                            { name: 'Services', href: '/services' },
+                            { name: 'Contact', href: '/contact' }
+                        ].map((link) => (
+                            <li key={link.name}>
+                                <Link href={link.href} className="text-slate-400 hover:text-red-500 hover:translate-x-1 inline-block transition-transform duration-300 text-sm font-medium">
+                                    {link.name}
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -45,11 +46,15 @@ export default function Footer() {
                 <div>
                     <h3 className="text-white font-bold text-lg mb-6 uppercase tracking-wider relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-12 after:h-1 after:bg-red-600">More Links</h3>
                     <ul className="space-y-3">
-                        {['Impact', 'Training', 'Partnerships', 'Privacy Policy', 'Blog'].map((link) => (
-                            <li key={link}>
-                                <a href={`#${link.toLowerCase().replace(' ', '-')}`} className="text-slate-400 hover:text-red-500 hover:translate-x-1 inline-block transition-transform duration-300 text-sm font-medium">
-                                    {link}
-                                </a>
+                        {[
+                            { name: 'Training', href: '/training' },
+                            { name: 'Impact', href: '/training#impact' },
+                            { name: 'Partnerships', href: '/training#partnerships' }
+                        ].map((link) => (
+                            <li key={link.name}>
+                                <Link href={link.href} className="text-slate-400 hover:text-red-500 hover:translate-x-1 inline-block transition-transform duration-300 text-sm font-medium">
+                                    {link.name}
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -69,13 +74,13 @@ export default function Footer() {
                             <div className="bg-slate-800 p-2 rounded text-red-500 shrink-0">
                                 <Phone size={18} />
                             </div>
-                            <span className="text-sm text-slate-400 pt-1">Toll-free 591<br />0808 0630</span>
+                            <span className="text-sm text-slate-400 pt-1">Toll-free<br />08080630</span>
                         </li>
                         <li className="flex items-start gap-4">
                             <div className="bg-slate-800 p-2 rounded text-red-500 shrink-0">
                                 <Mail size={18} />
                             </div>
-                            <span className="text-sm text-slate-400 pt-1">info@hems.co.zw</span>
+                            <span className="text-sm text-slate-400 pt-1">admin@hems.co.zw</span>
                         </li>
                     </ul>
                 </div>

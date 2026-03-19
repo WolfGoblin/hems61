@@ -56,7 +56,7 @@ export default function About() {
                 <div className="relative">
                     <div className="aspect-[4/5] bg-red-50 rounded-3xl overflow-hidden relative shadow-2xl border flex items-center justify-center group text-red-300">
                         <Image
-                            src="/about-image.jpg"
+                            src="/gallery-new-1.jpg"
                             alt="About HEMS"
                             fill
                             className="object-cover"
