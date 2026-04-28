@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import ImpactComponent from "@/components/sections/Impact";
 import PartnershipsComponent from "@/components/sections/Partnerships";
 import Image from "next/image";
-import { Clock, CheckCircle2, Globe2, BookOpen, Users } from "lucide-react";
+import { Clock, CheckCircle2 } from "lucide-react";
 
 export default function TrainingPage() {
     const courses = [

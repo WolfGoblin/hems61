@@ -1,4 +1,4 @@
-import { HeartPulse, Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 

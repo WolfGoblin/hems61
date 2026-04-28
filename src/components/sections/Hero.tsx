@@ -1,6 +1,6 @@
 "use client";
 
-import { Phone, ArrowRight, ShieldAlert } from "lucide-react";
+import { Phone, ShieldAlert } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
