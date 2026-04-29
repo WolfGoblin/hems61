@@ -1,6 +1,5 @@
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -8,12 +7,6 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 {/* Brand & Description */}
                 <div className="space-y-6">
-                    <Link href="#home" className="flex items-center bg-white w-max p-2 rounded-xl">
-                        <Image src="/hems-logo-v2.png" alt="HEMS Logo" width={480} height={140} className="h-20 md:h-24 w-auto object-contain" />
-                    </Link>
-                    <p className="text-sm leading-relaxed text-slate-400">
-                        Providing rapid, advanced emergency medical response on major highways in Zimbabwe. Dedicated to saving lives with a world-class fleet and certified trauma specialists.
-                    </p>
                     <div className="flex space-x-4">
                         <a href="https://www.facebook.com/hems.zw" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors duration-300">
                             <Facebook size={18} />

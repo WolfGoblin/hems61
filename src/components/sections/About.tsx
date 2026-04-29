@@ -24,7 +24,7 @@ export default function About() {
                     <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <li className="flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 transition-colors">
                             <CheckCircle2 className="text-red-500 shrink-0 mt-0.5" size={20} />
-                            <span className="font-semibold text-slate-700">17 fully equipped ambulances</span>
+                            <span className="font-semibold text-slate-700">Fully equipped ambulances</span>
                         </li>
                         <li className="flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 transition-colors">
                             <CheckCircle2 className="text-red-500 shrink-0 mt-0.5" size={20} />
