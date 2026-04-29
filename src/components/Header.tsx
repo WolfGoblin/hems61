@@ -36,10 +36,10 @@ export default function Header() {
             </div>
 
             {/* Main Navbar */}
-            <div className="bg-white px-4 md:px-8 py-4 flex justify-between items-center h-20 md:h-24">
+            <div className="bg-white px-4 md:px-8 py-4 flex justify-between items-center h-32 md:h-48">
                 {/* Logo */}
                 <Link href="/" className="flex items-center" onClick={() => setIsOpen(false)}>
-                    <Image src="/hems-logo-v2.png" alt="HEMS Logo" width={240} height={70} className="h-10 md:h-14 w-auto object-contain" priority />
+                    <Image src="/hems-logo-v2.png" alt="HEMS Logo" width={480} height={140} className="h-20 md:h-28 w-auto object-contain" priority />
                 </Link>
 
                 {/* Desktop Nav */}

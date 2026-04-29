@@ -9,7 +9,7 @@ export default function Footer() {
                 {/* Brand & Description */}
                 <div className="space-y-6">
                     <Link href="#home" className="flex items-center bg-white w-max p-2 rounded-xl">
-                        <Image src="/hems-logo-v2.png" alt="HEMS Logo" width={240} height={70} className="h-10 md:h-12 w-auto object-contain" />
+                        <Image src="/hems-logo-v2.png" alt="HEMS Logo" width={480} height={140} className="h-20 md:h-24 w-auto object-contain" />
                     </Link>
                     <p className="text-sm leading-relaxed text-slate-400">
                         Providing rapid, advanced emergency medical response on major highways in Zimbabwe. Dedicated to saving lives with a world-class fleet and certified trauma specialists.

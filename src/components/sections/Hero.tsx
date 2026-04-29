@@ -71,7 +71,7 @@ export default function Hero() {
     );
 
     return (
-        <section id="home" className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-slate-50 min-h-[90vh] flex items-center border-b border-slate-200">
+        <section id="home" className="relative pt-52 pb-20 md:pt-64 md:pb-28 overflow-hidden bg-slate-50 min-h-[90vh] flex items-center border-b border-slate-200">
             {/* Background Decor */}
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-red-50 to-white -z-10" />
             <div className="absolute top-[-20%] right-[-10%] w-[60%] h-[120%] bg-red-600/5 rounded-full blur-[100px] -z-10" />
