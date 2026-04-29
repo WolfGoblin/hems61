@@ -78,37 +78,45 @@ export default function ContactPage() {
                             <form
                                 className="space-y-5"
                                 action="mailto:info@hems.co.zw"
-                                method="POST"
+                                method="GET"
                                 encType="text/plain"
                             >
                                 <div className="grid sm:grid-cols-2 gap-5">
                                     <input
                                         type="text"
+                                        name="name"
                                         placeholder="Your Name"
                                         className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 bg-slate-50 transition-shadow font-medium"
+                                        required
                                     />
                                     <input
                                         type="email"
+                                        name="email"
                                         placeholder="Email Address"
                                         className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 bg-slate-50 transition-shadow font-medium"
+                                        required
                                     />
                                 </div>
                                 <input
                                     type="text"
+                                    name="phone"
                                     placeholder="Phone Number"
                                     className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 bg-slate-50 transition-shadow font-medium"
                                 />
                                 <input
                                     type="text"
+                                    name="subject"
                                     placeholder="Subject"
                                     className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 bg-slate-50 transition-shadow font-medium"
                                 />
                                 <textarea
+                                    name="message"
                                     placeholder="How can we help you?"
                                     rows={5}
                                     className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 bg-slate-50 transition-shadow resize-none font-medium"
+                                    required
                                 />
-                                <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all uppercase tracking-wide flex items-center justify-center gap-3 group">
+                                <button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all uppercase tracking-wide flex items-center justify-center gap-3 group">
                                     <Send size={20} className="group-hover:translate-x-1 transition-transform" />
                                     Send Message
                                 </button>
