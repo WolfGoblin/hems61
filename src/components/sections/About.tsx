@@ -28,7 +28,7 @@ export default function About() {
                         </li>
                         <li className="flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 transition-colors">
                             <CheckCircle2 className="text-red-500 shrink-0 mt-0.5" size={20} />
-                            <span className="font-semibold text-slate-700">5 rapid response vehicles at strategic bases</span>
+                            <span className="font-semibold text-slate-700">Rapid response vehicles at strategic bases</span>
                         </li>
                         <li className="flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 transition-colors">
                             <CheckCircle2 className="text-red-500 shrink-0 mt-0.5" size={20} />

@@ -91,7 +91,7 @@ export default function Hero() {
                     {renderHeroImage("lg:hidden mt-8 mb-12")}
 
                     <p className="text-lg md:text-xl text-slate-600 leading-relaxed font-medium max-w-xl animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 ease-out fill-mode-both text-pretty">
-                        Providing rapid, advanced emergency medical response on major highways in Zimbabwe, including Harare–Chirundu and other key routes.
+                        Providing rapid, advanced emergency medical response on major highways in Zimbabwe.
                     </p>
 
                     <ul className="space-y-4 font-semibold text-slate-700 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300 ease-out fill-mode-both">
