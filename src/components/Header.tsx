@@ -58,7 +58,7 @@ export default function Header() {
                         className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md font-bold text-sm tracking-wide transition-all shadow-lg hover:shadow-xl shadow-red-600/30 flex items-center gap-2 uppercase animate-pulse hover:animate-none"
                     >
                         <Phone size={16} className="fill-white" />
-                        Call 08080630 Now
+                        Call
                     </a>
                 </nav>
 
@@ -90,7 +90,7 @@ export default function Header() {
                         className="mt-4 bg-red-600 text-white text-center py-3 px-4 rounded-md font-bold flex items-center justify-center gap-2 shadow-lg"
                     >
                         <Phone size={18} className="fill-white" />
-                        Call 08080630 Now
+                        Call
                     </a>
                 </nav>
             )}
